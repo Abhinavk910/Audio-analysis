@@ -38,7 +38,9 @@ class config2:
         self.step = int(rate/1)
         self.model_path = os.path.join('../working/models', mode+'.h5')
         self.p_path = os.path.join('../working/pickle', mode+'.p')
-        
+
+config2 = config2()        
+
 with open("assets/pickle/conv3.p", 'rb') as handle:
     config = pickle.load(handle)
 
@@ -563,6 +565,6 @@ def predict_using_model(content, name, date):
                            
                            
 if __name__ == "__main__":
-    app.run_server(debug=False, host='0.0.0.0', port=8050)
+    app.run_server(debug=False, port=805
 
 
