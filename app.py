@@ -36,10 +36,10 @@ class config2:
         self.nfft=nfft
         self.rate=rate
         self.step = int(rate/1)
-        self.model_path = os.path.join('../working/models', mode+'.h5')
-        self.p_path = os.path.join('../working/pickle', mode+'.p')
+        self.model_path = '../working/models'
+        self.p_path = '../working/pickle'
 
-config = config2()        
+#       
 
 with open("assets/pickle/conv3.p", 'rb') as handle:
     config = pickle.load(handle)
