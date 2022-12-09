@@ -39,7 +39,7 @@ class config2:
         self.model_path = os.path.join('../working/models', mode+'.h5')
         self.p_path = os.path.join('../working/pickle', mode+'.p')
 
-config2 = config2()        
+config = config2()        
 
 with open("assets/pickle/conv3.p", 'rb') as handle:
     config = pickle.load(handle)
