@@ -565,6 +565,6 @@ def predict_using_model(content, name, date):
                            
                            
 if __name__ == "__main__":
-    app.run_server(debug=False, port=805
+    app.run_server(debug=False, port=8050)
 
 
