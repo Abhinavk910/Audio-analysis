@@ -15,4 +15,5 @@ datetime
 
 python_speech_features
 
+libsndfile1
 librosa
