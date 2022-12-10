@@ -3,8 +3,7 @@ pandas==1.3.5
 
 matplotlib==3.5.1
 
-gunicorn==20.0.4
-
+gunicorn
 dash-bootstrap-components==1.1.0
 
 numpy
@@ -14,6 +13,4 @@ tensorflow
 datetime
 
 python_speech_features
-
-libsndfile1
 librosa
