@@ -126,7 +126,7 @@ predict = html.Div([
         ),
     ]),
     html.Div([
-        html.Div(id='output-data-upload')
+        dcc.Loading(html.Div(id='output-data-upload'))
     ], style={'margin':'1rem'})
 ], className="")
 
@@ -205,9 +205,9 @@ competition = html.Div([
         ], className="options"),#options d-flex flex-column align-items-center
         html.Div([
             html.H5('AI Prediction:-'),
-            html.Div([
+            dcc.Loading(html.Div([
                     html.P('')
-                ], id='model-pred')
+                ], id='model-pred'))
         ], className="options"),
     ], className='competition-container'),
     html.Div([
