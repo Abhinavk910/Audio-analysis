@@ -14,6 +14,5 @@ tensorflow-cpu
 datetime
 
 python_speech_features
-pysndfile
 soundfile
 librosa
