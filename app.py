@@ -22,18 +22,14 @@ import pickle
 import os
 import numpy as np
 from tensorflow.keras.models import load_model
-from config import config2
+from config import config_
 
 
 
 model = load_model('assets/model/conv.h5')
 
 
-
-#       
-
-with open("assets/pickle/conv3.p", 'rb') as handle:
-    config = pickle.load(handle)
+config = config_()
 
 
 def building_model(filePath):

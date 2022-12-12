@@ -1,4 +1,4 @@
-class config2:
+class config_:
     def __init__(self, mode='conv', nfilt=26, nfeat=13, nfft=512, rate=8000):
         self.mode=mode
         self.nfilt=nfilt
@@ -6,5 +6,6 @@ class config2:
         self.nfft=nfft
         self.rate=rate
         self.step = int(rate/1)
-        self.model_path = '../working/models'
-        self.p_path = '../working/pickle'
+        self.classes = ['tired','burping','discomfort','belly_pain','hungry']
+        self.max = 72.77787783
+        self.min = -70.0754891

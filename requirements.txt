@@ -1,3 +1,4 @@
+wheel
 dash==2.3.1
 pandas==1.3.5
 
@@ -13,5 +14,6 @@ tensorflow-cpu
 datetime
 
 python_speech_features
+pysndfile
 soundfile
 librosa
