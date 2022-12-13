@@ -298,7 +298,16 @@ app.layout = html.Div([
                 html.Div([
                     'data2'
                 ],id='insert_page2',
-                    className='data-container container-color flex-grow-1 text-color')
+                    className='data-container container-color flex-grow-1 text-color'),
+                html.Div([
+                    html.P("Developed By"),
+                    html.Div([
+                        html.A(
+                        html.H1([
+                            html.Span("A"), "bhinav ",html.Span('K'), "umar"
+                        ]), href = 'http://www.linkedin.com/in/abhinavk910', target="_blank")
+                    ])
+                ], className='radio-container container-color' )
             ],className='big-container')
 
 
