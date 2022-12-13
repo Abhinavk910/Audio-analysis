@@ -303,9 +303,7 @@ app.layout = html.Div([
                     html.P("Developed By"),
                     html.Div([
                         html.A(
-                        html.H1([
-                            html.Span("A"), "bhinav ",html.Span('K'), "umar"
-                        ]), href = 'http://www.linkedin.com/in/abhinavk910', target="_blank")
+                        "Abhinav Kumar", href = 'http://www.linkedin.com/in/abhinavk910', target="_blank")
                     ])
                 ], className='radio-container container-color' )
             ],className='big-container')
